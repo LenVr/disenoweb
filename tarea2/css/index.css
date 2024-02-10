@@ -1,0 +1,32 @@
+.iconSvg {
+    margin: 20px;
+    width: 200px;
+}
+
+.btnVerMas {
+    width: 200px;
+}
+
+.linkContainer {
+
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link {
+    margin-top: 10px;
+    width: 50%;
+
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: black;
+    color: white;
+}

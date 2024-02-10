@@ -1,0 +1,18 @@
+.cuadro {
+    height: 300px;
+
+    background-color: blueviolet;
+    margin: auto;
+}
+
+h3 {
+
+    margin-top: 10px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.cuadro p {
+    color: white;
+}

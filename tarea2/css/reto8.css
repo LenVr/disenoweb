@@ -1,0 +1,57 @@
+body {
+    overflow-y: hidden;
+}
+
+.bannerContainer {
+    background-image: url('../imagenes/mountains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.contenedor {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.underConstructionTitle {
+    color: transparent;
+
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+    user-select: none;
+}
+
+img {
+    width: 300px;
+}
+
+.footerClass {
+    background-color: rgb(30, 30, 30);
+    height: 100vh;
+    width: 100%;
+}
+
+.footerClass img {
+    width: 50px;
+}
+
+.socialMediaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.socialMediaContainer img {
+    margin-left: 20px;
+}
