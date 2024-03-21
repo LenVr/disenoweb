@@ -1,0 +1,183 @@
+body {
+    overflow-x: hidden;
+}
+
+.videoContainer {
+    height: 50vh;
+}
+
+
+.mainTitleContainer {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleP {
+    font-size: 15px;
+    color: white;
+    text-shadow: 3px 2px 5px black;
+
+    user-select: none;
+}
+
+.mainTitle {
+    color: white;
+    text-shadow: 3px 3.5px 5px black;
+
+    user-select: none;
+}
+
+.ticketsSection {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContentContainer {
+    margin-top: 5%;
+}
+
+.tickets {
+    background-color: #262626;
+    margin-top: -100px;
+    margin-bottom: -100px;
+}
+
+
+@media (max-width: 540px) {
+    .tickets {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+.formulario {
+    margin: 20px;
+}
+
+.informationTitle {
+    margin-top: 20px;
+    color: white;
+}
+
+.button {
+    margin-top: 20px;
+
+    height: 50px;
+    width: 150px;
+
+    background-color: orange;
+    border-radius: 5px;
+    border-color: transparent;
+
+    transition: transform 0.5s ease;
+
+    font-size: medium;
+}
+
+.button:hover {
+    transform: scale(1.02);
+}
+
+form input {
+    width: 70%;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.bannerContainer {
+    height: 80vh;
+
+    background-image: url(../assets/bannerImg.jpg);
+    background-size: cover;
+}
+
+.mapContainer {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.mapa {
+    width: 100%;
+    height: 500px;
+}
+
+.scrollTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 60px;
+    left: 10px;
+
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.447);
+    border-radius: 50%;
+
+    transition: transform 0.5s ease;
+}
+
+.scrollTop:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.audioContainer {
+    position: fixed;
+    bottom: 50px;
+    left: 80px;
+
+    width: 1;
+}
+
+.audioControls {
+    color: transparent;
+    width: 100px;
+}
+
+.scrollTop i {
+    color: black;
+    font-size: 30px;
+}
+
+.contactInformation {
+    width: 100%;
+    height: 250px;
+    background-color: #262626;
+}
+
+#contactUs {
+    color: white;
+}
+
+.iconsContainer i {
+    color: white;
+}
+
+.iconsContainer a {
+    text-decoration: none;
+}
+
+.icon {
+    transition: transform 0.5s ease;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.highlights {
+    width: 100%;
+}
